@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { getFact } from "./getFact";
 import { Input } from "../../shared/ui/Input.styled";
-import { Column, Form } from "../../shared/ui/Form.styled";
+import { Form } from "../../shared/ui/Form.styled";
+import { Column } from "../../shared/ui/Column.styled";
 import { Button } from "../../shared/ui/Button.styled";
 import { Title } from "../../shared/ui/Title.styled";
 

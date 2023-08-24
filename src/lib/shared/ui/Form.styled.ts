@@ -8,9 +8,3 @@ export const Form = styled.form`
   max-width: 400px;
   margin: 0 auto 30px;
 `;
-
-export const Column = styled.div`
-  padding: 0 5px;
-  margin-bottom: 10px;
-  text-align: center;
-`;
