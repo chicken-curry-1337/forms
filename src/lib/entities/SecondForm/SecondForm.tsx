@@ -30,11 +30,7 @@ export default function SecondForm() {
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
 
-    const form = e.target;
-    const formData = new FormData(form as HTMLFormElement);
-    const name = formData.get("name") as string;
-
-    getAge(name);
+    getAge(inputValue);
   }
 
   useEffect(() => {
